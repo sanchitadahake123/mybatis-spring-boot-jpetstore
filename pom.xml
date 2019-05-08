@@ -266,6 +266,18 @@
 			</plugin>
 		</plugins>
 	</build>
+<distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>SAMPLE-REL</name>
+            <url>http://13.232.154.101:8081/repository/SAMPLE-REL/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>SAMPLE-SNAP</name>
+            <url>http://13.232.154.101:8081/repository/SAMPLE-SNAP/</url>
+        </snapshotRepository>
+</distributionManagement>
 
 	<profiles>
 		<profile>
